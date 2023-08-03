@@ -6,7 +6,7 @@ while True:
     input("Role o dado(aperte qualquer coisa)")
     n = random.randint(0,6)
 
-    print(name, " ,você rolou um ",n, "!")
+    print(name, ", você rolou um ",n, "!")
     if(n == 1):
         print("[     ]", end="\n")
         print("[  0  ]", end="\n")
