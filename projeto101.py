@@ -8,7 +8,7 @@ while True:
         print("Programa terminado. Obrigado por ter utilizado o rola dados. Até a próxima!")
         break
 
-    input("Role o dado(aperte qualquer coisa)")
+    input("Role o dado(aperte em enter)")
     
     n = random.randint(1,6)
 
