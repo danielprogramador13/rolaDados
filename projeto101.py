@@ -1,9 +1,14 @@
 import random
 
-print("Aperte ctrl+c para sair")
+print("Digite break no campo de nome de jogador para sair")
 while True:
     name = input("Nome do jogador: ")
+    
+    if(name == "break"): 
+        break
+
     input("Role o dado(aperte qualquer coisa)")
+    
     n = random.randint(1,6)
 
     print(name, ", você rolou um ",n, "!")
