@@ -4,7 +4,7 @@ print("Aperte ctrl+c para sair")
 while True:
     name = input("Nome do jogador: ")
     input("Role o dado(aperte qualquer coisa)")
-    n = random.randint(0,6)
+    n = random.randint(1,6)
 
     print(name, ", você rolou um ",n, "!")
     if(n == 1):
