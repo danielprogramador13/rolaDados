@@ -5,6 +5,7 @@ while True:
     name = input("Nome do jogador: ")
     
     if(name == "break"): 
+        print("Programa terminado. Obrigado por ter utilizado o rola dados. Até a próxima!")
         break
 
     input("Role o dado(aperte qualquer coisa)")
